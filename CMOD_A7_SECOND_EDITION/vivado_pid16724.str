@@ -89,3 +89,6 @@ dismissDialog("Open Project"); // bs (cj)
 // TclEventType: DG_GRAPH_GENERATED
 // Tcl Message: update_compile_order -fileset sources_1 
 // [GUI Memory]: 71 MB (+2119kb) [00:00:48]
+// Elapsed time: 63 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+// [GUI Memory]: 75 MB (+423kb) [00:02:31]

@@ -9,3 +9,13 @@
 # Log file: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/vivado.log
 # Journal file: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado2017/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 856.414 ; gain = 129.500
+update_compile_order -fileset sources_1

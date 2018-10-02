@@ -9,3 +9,6 @@
 # Log file: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/vivado.log
 # Journal file: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.xpr
+update_compile_order -fileset sources_1
