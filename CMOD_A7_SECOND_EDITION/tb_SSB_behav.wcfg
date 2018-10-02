@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_SSB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_SSB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2240000001fs"></ZoomEndTime>
+      <Cursor1Time time="41666000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="55" />
+   <wvobject fp_name="/tb_SSB/barker" type="array">
+      <obj_property name="ElementShortName">barker[0:43]</obj_property>
+      <obj_property name="ObjectShortName">barker[0:43]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/btnC" type="logic">
+      <obj_property name="ElementShortName">btnC</obj_property>
+      <obj_property name="ObjectShortName">btnC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u44/bk_clk" type="logic">
+      <obj_property name="ElementShortName">bk_clk</obj_property>
+      <obj_property name="ObjectShortName">bk_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/jb4" type="logic">
+      <obj_property name="ElementShortName">jb4</obj_property>
+      <obj_property name="ObjectShortName">jb4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u44/jb1" type="logic">
+      <obj_property name="ElementShortName">jb1</obj_property>
+      <obj_property name="ObjectShortName">jb1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u44/sig_flag1" type="logic">
+      <obj_property name="ElementShortName">sig_flag1</obj_property>
+      <obj_property name="ObjectShortName">sig_flag1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u44/sig_flag" type="logic">
+      <obj_property name="ElementShortName">sig_flag</obj_property>
+      <obj_property name="ObjectShortName">sig_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/jc4" type="logic">
+      <obj_property name="ElementShortName">jc4</obj_property>
+      <obj_property name="ObjectShortName">jc4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/ld0" type="logic">
+      <obj_property name="ElementShortName">ld0</obj_property>
+      <obj_property name="ObjectShortName">ld0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/ld4" type="logic">
+      <obj_property name="ElementShortName">ld4</obj_property>
+      <obj_property name="ObjectShortName">ld4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/output4_1" type="logic">
+      <obj_property name="ElementShortName">output4_1</obj_property>
+      <obj_property name="ObjectShortName">output4_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/output4_2" type="logic">
+      <obj_property name="ElementShortName">output4_2</obj_property>
+      <obj_property name="ObjectShortName">output4_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u12/btnC" type="logic">
+      <obj_property name="ElementShortName">btnC</obj_property>
+      <obj_property name="ObjectShortName">btnC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u12/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u12/ld0" type="logic">
+      <obj_property name="ElementShortName">ld0</obj_property>
+      <obj_property name="ObjectShortName">ld0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/generate_16xDeltaF4/clk_in1" type="logic">
+      <obj_property name="ElementShortName">clk_in1</obj_property>
+      <obj_property name="ObjectShortName">clk_in1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u48/bitout" type="logic">
+      <obj_property name="ElementShortName">bitout</obj_property>
+      <obj_property name="ObjectShortName">bitout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u40/a" type="array">
+      <obj_property name="ElementShortName">a[10:0]</obj_property>
+      <obj_property name="ObjectShortName">a[10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u40/spo" type="array">
+      <obj_property name="ElementShortName">spo[0:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u41/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u41/addra" type="array">
+      <obj_property name="ElementShortName">addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u41/finish_flag" type="logic">
+      <obj_property name="ElementShortName">finish_flag</obj_property>
+      <obj_property name="ObjectShortName">finish_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u41/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u43/bk_clk" type="logic">
+      <obj_property name="ElementShortName">bk_clk</obj_property>
+      <obj_property name="ObjectShortName">bk_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u43/finish_flag" type="logic">
+      <obj_property name="ElementShortName">finish_flag</obj_property>
+      <obj_property name="ObjectShortName">finish_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u43/ctl" type="logic">
+      <obj_property name="ElementShortName">ctl</obj_property>
+      <obj_property name="ObjectShortName">ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u48/bitin" type="logic">
+      <obj_property name="ElementShortName">bitin</obj_property>
+      <obj_property name="ObjectShortName">bitin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u48/ctl" type="logic">
+      <obj_property name="ElementShortName">ctl</obj_property>
+      <obj_property name="ObjectShortName">ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u48/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/generate_half4/bitsyn" type="logic">
+      <obj_property name="ElementShortName">bitsyn</obj_property>
+      <obj_property name="ObjectShortName">bitsyn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/generate_half4/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/generate_half4/ctl" type="logic">
+      <obj_property name="ElementShortName">ctl</obj_property>
+      <obj_property name="ObjectShortName">ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/generate_half4/half_bit" type="logic">
+      <obj_property name="ElementShortName">half_bit</obj_property>
+      <obj_property name="ObjectShortName">half_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/output3_2" type="logic">
+      <obj_property name="ElementShortName">output3_2</obj_property>
+      <obj_property name="ObjectShortName">output3_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/output4_1" type="logic">
+      <obj_property name="ElementShortName">output4_1</obj_property>
+      <obj_property name="ObjectShortName">output4_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/output4_2" type="logic">
+      <obj_property name="ElementShortName">output4_2</obj_property>
+      <obj_property name="ObjectShortName">output4_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/clk_primary" type="other">
+      <obj_property name="ElementShortName">clk_primary</obj_property>
+      <obj_property name="ObjectShortName">clk_primary</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/bitsyn" type="logic">
+      <obj_property name="ElementShortName">bitsyn</obj_property>
+      <obj_property name="ObjectShortName">bitsyn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/syn_flag" type="logic">
+      <obj_property name="ElementShortName">syn_flag</obj_property>
+      <obj_property name="ObjectShortName">syn_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u471/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u471/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/mclk" type="logic">
+      <obj_property name="ElementShortName">mclk</obj_property>
+      <obj_property name="ObjectShortName">mclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/ctl" type="logic">
+      <obj_property name="ElementShortName">ctl</obj_property>
+      <obj_property name="ObjectShortName">ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/jb1" type="logic">
+      <obj_property name="ElementShortName">jb1</obj_property>
+      <obj_property name="ObjectShortName">jb1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/sig_flag" type="logic">
+      <obj_property name="ElementShortName">sig_flag</obj_property>
+      <obj_property name="ObjectShortName">sig_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/ld2" type="logic">
+      <obj_property name="ElementShortName">ld2</obj_property>
+      <obj_property name="ObjectShortName">ld2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/syn_flag" type="logic">
+      <obj_property name="ElementShortName">syn_flag</obj_property>
+      <obj_property name="ObjectShortName">syn_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/bitsyn" type="logic">
+      <obj_property name="ElementShortName">bitsyn</obj_property>
+      <obj_property name="ObjectShortName">bitsyn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SSB/uut/u45/countnumber" type="other">
+      <obj_property name="ElementShortName">countnumber</obj_property>
+      <obj_property name="ObjectShortName">countnumber</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

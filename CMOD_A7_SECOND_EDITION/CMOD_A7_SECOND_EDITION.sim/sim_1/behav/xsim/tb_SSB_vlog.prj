@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz" --include "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4" \
+"../../../../CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" \
+"../../../../CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" \
+"../../../../CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" \
+"../../../../CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" \
+"../../../../CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

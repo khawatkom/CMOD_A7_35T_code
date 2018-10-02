@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz

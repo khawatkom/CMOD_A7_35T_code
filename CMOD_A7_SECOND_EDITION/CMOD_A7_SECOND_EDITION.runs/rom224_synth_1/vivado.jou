@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Sep 25 14:31:01 2018
+# Process ID: 12176
+# Current directory: E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/rom224_synth_1
+# Command line: vivado.exe -log rom224.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom224.tcl
+# Log file: E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/rom224_synth_1/rom224.vds
+# Journal file: E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/rom224_synth_1\vivado.jou
+#-----------------------------------------------------------
+source rom224.tcl -notrace

@@ -1,0 +1,2 @@
+rom224.v,verilog,xil_defaultlib,../../../ip/rom224/sim/rom224.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

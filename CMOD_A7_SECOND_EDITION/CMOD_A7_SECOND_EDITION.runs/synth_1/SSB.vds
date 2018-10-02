@@ -1,0 +1,873 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Sep 25 21:33:36 2018
+# Process ID: 20788
+# Current directory: E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1
+# Command line: vivado.exe -log SSB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SSB.tcl
+# Log file: E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/SSB.vds
+# Journal file: E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SSB.tcl -notrace
+Command: synth_design -top SSB -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9400 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 419.344 ; gain = 99.355
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SSB' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:48]
+INFO: [Synth 8-3491] module 'clk_100MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/realtime/clk_100MHz_stub.vhdl:5' bound to instance 'generate_100MHz' of component 'clk_100MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:464]
+INFO: [Synth 8-638] synthesizing module 'clk_100MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/realtime/clk_100MHz_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'clk_1MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:905' bound to instance 'generate_1MHz' of component 'clk_1MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:465]
+INFO: [Synth 8-638] synthesizing module 'clk_1MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:910]
+INFO: [Synth 8-256] done synthesizing module 'clk_1MHz' (1#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:910]
+INFO: [Synth 8-3491] module 'clk_4MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:960' bound to instance 'generate_4MHz' of component 'clk_4MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:467]
+INFO: [Synth 8-638] synthesizing module 'clk_4MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:965]
+INFO: [Synth 8-256] done synthesizing module 'clk_4MHz' (2#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:965]
+INFO: [Synth 8-3491] module 'clk_0_125MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:995' bound to instance 'generate_0_125MHz' of component 'clk_0_125MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:468]
+INFO: [Synth 8-638] synthesizing module 'clk_0_125MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'clk_0_125MHz' (3#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1000]
+INFO: [Synth 8-3491] module 'clknew4' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/realtime/clknew4_stub.vhdl:5' bound to instance 'generate_16xDeltaF4' of component 'clknew4' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:472]
+INFO: [Synth 8-638] synthesizing module 'clknew4' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/realtime/clknew4_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'half_bitsyn' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1022' bound to instance 'generate_half4' of component 'half_bitsyn' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:477]
+INFO: [Synth 8-638] synthesizing module 'half_bitsyn' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1029]
+INFO: [Synth 8-256] done synthesizing module 'half_bitsyn' (4#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1029]
+INFO: [Synth 8-3491] module 'rom224' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/realtime/rom224_stub.vhdl:5' bound to instance 'u40' of component 'rom224' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:482]
+INFO: [Synth 8-638] synthesizing module 'rom224' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/realtime/rom224_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'rom_choose' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:8' bound to instance 'u41' of component 'rom_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:487]
+INFO: [Synth 8-638] synthesizing module 'rom_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'rom_choose' (5#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:17]
+INFO: [Synth 8-3491] module 'btn_control' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:6' bound to instance 'u12' of component 'btn_control' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:489]
+INFO: [Synth 8-638] synthesizing module 'btn_control' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'btn_control' (6#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:18]
+INFO: [Synth 8-3491] module 'controller' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd:6' bound to instance 'u43' of component 'controller' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:494]
+INFO: [Synth 8-638] synthesizing module 'controller' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'controller' (7#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd:15]
+INFO: [Synth 8-3491] module 'bk_detector' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:7' bound to instance 'u44' of component 'bk_detector' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:499]
+INFO: [Synth 8-638] synthesizing module 'bk_detector' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:16]
+WARNING: [Synth 8-614] signal 'sig_flag1' is read in the process but is not in the sensitivity list [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element countnum1_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:92]
+WARNING: [Synth 8-6014] Unused sequential element countnum2_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:93]
+WARNING: [Synth 8-6014] Unused sequential element countnum3_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:94]
+WARNING: [Synth 8-6014] Unused sequential element countnum4_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'bk_detector' (8#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:16]
+INFO: [Synth 8-3491] module 'synchronize' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:6' bound to instance 'u45' of component 'synchronize' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:504]
+INFO: [Synth 8-638] synthesizing module 'synchronize' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'synchronize' (9#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:20]
+INFO: [Synth 8-3491] module 'shift_output' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1055' bound to instance 'u46' of component 'shift_output' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:521]
+INFO: [Synth 8-638] synthesizing module 'shift_output' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1078]
+INFO: [Synth 8-256] done synthesizing module 'shift_output' (10#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1078]
+INFO: [Synth 8-3491] module 'manubuffer' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1327' bound to instance 'u48' of component 'manubuffer' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:530]
+INFO: [Synth 8-638] synthesizing module 'manubuffer' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1335]
+INFO: [Synth 8-256] done synthesizing module 'manubuffer' (11#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1335]
+INFO: [Synth 8-3491] module 'dynamic_choose' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:6' bound to instance 'u47' of component 'dynamic_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:551]
+INFO: [Synth 8-638] synthesizing module 'dynamic_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'dynamic_choose' (12#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:32]
+INFO: [Synth 8-3491] module 'con_217' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1239' bound to instance 'u470' of component 'con_217' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:565]
+INFO: [Synth 8-638] synthesizing module 'con_217' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1248]
+INFO: [Synth 8-256] done synthesizing module 'con_217' (13#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1248]
+INFO: [Synth 8-3491] module 'output' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1281' bound to instance 'u471' of component 'output' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:566]
+INFO: [Synth 8-638] synthesizing module '\output ' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1290]
+INFO: [Synth 8-256] done synthesizing module '\output ' (14#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1290]
+INFO: [Synth 8-256] done synthesizing module 'SSB' (15#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:48]
+WARNING: [Synth 8-3331] design synchronize has unconnected port jb1
+WARNING: [Synth 8-3331] design controller has unconnected port bk_clk
+WARNING: [Synth 8-3331] design controller has unconnected port syn_flag
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 490.707 ; gain = 170.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 490.707 ; gain = 170.719
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp3/clk_100MHz_in_context.xdc] for cell 'generate_100MHz'
+Finished Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp3/clk_100MHz_in_context.xdc] for cell 'generate_100MHz'
+Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp4/clknew4_in_context.xdc] for cell 'generate_16xDeltaF4'
+Finished Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp4/clknew4_in_context.xdc] for cell 'generate_16xDeltaF4'
+Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp5/rom224_in_context.xdc] for cell 'u40'
+Finished Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp5/rom224_in_context.xdc] for cell 'u40'
+Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
+Finished Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SSB_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SSB_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 832.926 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for primary_clk. (constraint file  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp3/clk_100MHz_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for primary_clk. (constraint file  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/.Xil/Vivado-20788-DESKTOP-J9CTS4D/dcp3/clk_100MHz_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for generate_100MHz. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for generate_16xDeltaF4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u40. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element bkclk_cnt_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:917]
+WARNING: [Synth 8-6014] Unused sequential element temp_addra_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:24]
+WARNING: [Synth 8-6014] Unused sequential element chr_clk_cnt_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:58]
+WARNING: [Synth 8-6014] Unused sequential element delay_counter_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1085]
+INFO: [Synth 8-5546] ROM "up1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "distance1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "distance1" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'choose_result_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:101]
+WARNING: [Synth 8-327] inferring latch for variable 'choose_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:52]
+WARNING: [Synth 8-327] inferring latch for variable 'distance2_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:86]
+WARNING: [Synth 8-327] inferring latch for variable 'distance10_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:94]
+WARNING: [Synth 8-327] inferring latch for variable 'distance3_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:87]
+WARNING: [Synth 8-327] inferring latch for variable 'distance4_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:88]
+WARNING: [Synth 8-327] inferring latch for variable 'distance5_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:89]
+WARNING: [Synth 8-327] inferring latch for variable 'distance6_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:90]
+WARNING: [Synth 8-327] inferring latch for variable 'distance7_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:91]
+WARNING: [Synth 8-327] inferring latch for variable 'distance8_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'distance9_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:93]
+WARNING: [Synth 8-327] inferring latch for variable 'distance11_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:95]
+WARNING: [Synth 8-327] inferring latch for variable 'distance12_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:96]
+WARNING: [Synth 8-327] inferring latch for variable 'distance13_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:97]
+WARNING: [Synth 8-327] inferring latch for variable 'distance14_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:98]
+WARNING: [Synth 8-327] inferring latch for variable 'distance15_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:99]
+WARNING: [Synth 8-327] inferring latch for variable 'distance16_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:100]
+WARNING: [Synth 8-327] inferring latch for variable 'distance1_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:85]
+WARNING: [Synth 8-327] inferring latch for variable 'down2_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'up2_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'down10_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:78]
+WARNING: [Synth 8-327] inferring latch for variable 'up10_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:78]
+WARNING: [Synth 8-327] inferring latch for variable 'down3_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'up3_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'down4_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:72]
+WARNING: [Synth 8-327] inferring latch for variable 'up4_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:72]
+WARNING: [Synth 8-327] inferring latch for variable 'down5_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:73]
+WARNING: [Synth 8-327] inferring latch for variable 'up5_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:73]
+WARNING: [Synth 8-327] inferring latch for variable 'down6_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:74]
+WARNING: [Synth 8-327] inferring latch for variable 'up6_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:74]
+WARNING: [Synth 8-327] inferring latch for variable 'down7_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'up7_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'down8_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:76]
+WARNING: [Synth 8-327] inferring latch for variable 'up8_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:76]
+WARNING: [Synth 8-327] inferring latch for variable 'down9_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:77]
+WARNING: [Synth 8-327] inferring latch for variable 'up9_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:77]
+WARNING: [Synth 8-327] inferring latch for variable 'down11_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:79]
+WARNING: [Synth 8-327] inferring latch for variable 'up11_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:79]
+WARNING: [Synth 8-327] inferring latch for variable 'down12_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'up12_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'down13_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:81]
+WARNING: [Synth 8-327] inferring latch for variable 'up13_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:81]
+WARNING: [Synth 8-327] inferring latch for variable 'down14_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:82]
+WARNING: [Synth 8-327] inferring latch for variable 'up14_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:82]
+WARNING: [Synth 8-327] inferring latch for variable 'down15_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'up15_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'down16_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:84]
+WARNING: [Synth 8-327] inferring latch for variable 'up16_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:84]
+WARNING: [Synth 8-327] inferring latch for variable 'down1_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:69]
+WARNING: [Synth 8-327] inferring latch for variable 'up1_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:69]
+WARNING: [Synth 8-327] inferring latch for variable 'pre2_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:54]
+WARNING: [Synth 8-327] inferring latch for variable 'pre10_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:62]
+WARNING: [Synth 8-327] inferring latch for variable 'pre3_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:55]
+WARNING: [Synth 8-327] inferring latch for variable 'pre4_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:56]
+WARNING: [Synth 8-327] inferring latch for variable 'pre5_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 'pre6_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:58]
+WARNING: [Synth 8-327] inferring latch for variable 'pre7_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:59]
+WARNING: [Synth 8-327] inferring latch for variable 'pre8_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:60]
+WARNING: [Synth 8-327] inferring latch for variable 'pre9_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'pre11_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:63]
+WARNING: [Synth 8-327] inferring latch for variable 'pre12_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:64]
+WARNING: [Synth 8-327] inferring latch for variable 'pre13_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:65]
+WARNING: [Synth 8-327] inferring latch for variable 'pre14_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:66]
+WARNING: [Synth 8-327] inferring latch for variable 'pre15_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:67]
+WARNING: [Synth 8-327] inferring latch for variable 'pre16_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:68]
+WARNING: [Synth 8-327] inferring latch for variable 'pre1_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:53]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 5     
+	  43 Input     32 Bit       Adders := 4     
+	   2 Input     11 Bit       Adders := 1     
+	   4 Input      8 Bit       Adders := 16    
+	   2 Input      8 Bit       Adders := 32    
+	   2 Input      7 Bit       Adders := 16    
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 3     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input    177 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 16    
+	   2 Input      7 Bit        Muxes := 16    
+	   2 Input      5 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 118   
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SSB 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 6     
+Module clk_1MHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module clk_4MHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module clk_0_125MHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module half_bitsyn 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module rom_choose 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+Module btn_control 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module bk_detector 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	  43 Input     32 Bit       Adders := 4     
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input    177 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 80    
+Module synchronize 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
+Module shift_output 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+Module manubuffer 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module dynamic_choose 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 16    
+	   2 Input      8 Bit       Adders := 32    
+	   2 Input      7 Bit       Adders := 16    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+	   2 Input      7 Bit        Muxes := 16    
+	  12 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 21    
+	   3 Input      1 Bit        Muxes := 4     
+Module con_217 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 3     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+Module output 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "distance1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'u12/ld0_reg' into 'u12/enable_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:25]
+INFO: [Synth 8-4471] merging register 'u45/ld2_reg' into 'u45/syn_flag_reg' [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:34]
+WARNING: [Synth 8-6014] Unused sequential element generate_1MHz/temp_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:919]
+WARNING: [Synth 8-6014] Unused sequential element u12/ld0_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element u45/ld2_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:34]
+WARNING: [Synth 8-6014] Unused sequential element generate_1MHz/bkclk_cnt_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:917]
+WARNING: [Synth 8-6014] Unused sequential element u41/temp_addra_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:24]
+WARNING: [Synth 8-6014] Unused sequential element u45/chr_clk_cnt_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:58]
+WARNING: [Synth 8-6014] Unused sequential element u46/delay_counter_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:1085]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\choose_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u43/ctl_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre4_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre5_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre6_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre7_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre8_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre9_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre10_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre11_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre12_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre13_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre14_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre15_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre16_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/pre2_reg)
+INFO: [Synth 8-3886] merging instance 'u47/up4_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u47/up4_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down4_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u47/up4_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down4_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/up4_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down4_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/up4_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down4_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/up4_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down4_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down4_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/up3_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u47/up3_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down3_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u47/up3_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down3_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/up3_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down3_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/up3_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down3_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/up3_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down3_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down3_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/up5_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u47/up5_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down5_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u47/up5_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down5_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/up5_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down5_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/up5_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down5_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/up5_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down5_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down5_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/up6_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u47/up6_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down6_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u47/up6_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down6_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/up6_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down6_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/up6_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down6_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/up6_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down6_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down6_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/up7_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u47/up7_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down7_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u47/up7_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down7_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/up7_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down7_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/up7_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down7_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/up7_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down7_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down7_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/up8_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u47/up8_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down8_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u47/up8_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down8_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/up8_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down8_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/up8_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down8_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/up8_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down8_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\down8_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up9_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up9_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down9_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up9_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down9_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up9_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/down9_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up9_reg[4] )
+INFO: [Synth 8-3886] merging instance 'u47/down9_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up9_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/down9_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down9_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up10_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up10_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down10_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up10_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down10_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up10_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/down10_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up10_reg[4] )
+INFO: [Synth 8-3886] merging instance 'u47/down10_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up10_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/down10_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down10_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up11_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up11_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down11_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up11_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down11_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up11_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/down11_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up11_reg[4] )
+INFO: [Synth 8-3886] merging instance 'u47/down11_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up11_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/down11_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down11_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up12_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up12_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down12_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up12_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down12_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up12_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/down12_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up12_reg[4] )
+INFO: [Synth 8-3886] merging instance 'u47/down12_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up12_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/down12_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down12_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up13_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up13_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down13_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up13_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down13_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up13_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/down13_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up13_reg[4] )
+INFO: [Synth 8-3886] merging instance 'u47/down13_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up13_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/down13_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down13_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up14_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up14_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down14_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up14_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down14_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up14_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/down14_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up14_reg[4] )
+INFO: [Synth 8-3886] merging instance 'u47/down14_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up14_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/down14_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down14_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up15_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up15_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down15_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up15_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down15_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up15_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u47/down15_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up15_reg[4] )
+INFO: [Synth 8-3886] merging instance 'u47/down15_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up15_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u47/down15_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down15_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up16_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up16_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u47/down16_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up16_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u47/down16_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u47/\up16_reg[3] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'u47/down16_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u47/down16_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u47/down16_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/down16_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u47/up1_reg[0]' (LDC) to 'u47/up2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u47/up1_reg[1]' (LDC) to 'u47/up2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u47/up1_reg[2]' (LDC) to 'u47/up2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u47/up1_reg[3]' (LDC) to 'u47/up2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u47/up1_reg[4]' (LDC) to 'u47/up2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u47/up1_reg[5]' (LDC) to 'u47/up2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[5]' (FD) to 'u45/countnumber_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[2]' (FD) to 'u45/countnumber_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[6]' (FD) to 'u45/countnumber_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[7]' (FD) to 'u45/countnumber_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[4]' (FD) to 'u45/countnumber_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[3]' (FD) to 'u45/countnumber_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[8]' (FD) to 'u45/countnumber_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u45/countnumber_reg[0]' (FD) to 'u45/bitsyn_reg'
+INFO: [Synth 8-3886] merging instance 'u47/choose_result_reg[0]' (LDC) to 'u47/choose_result_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u47/choose_result_reg[1]' (LDC) to 'u47/choose_result_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (generate_4MHz/temp_reg) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (generate_4MHz/bkclk_cnt_reg[5]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (generate_4MHz/bkclk_cnt_reg[4]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (generate_4MHz/bkclk_cnt_reg[3]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (generate_4MHz/bkclk_cnt_reg[2]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (generate_4MHz/bkclk_cnt_reg[1]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (generate_4MHz/bkclk_cnt_reg[0]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[176]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[175]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[174]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[173]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[172]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[171]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[170]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[169]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[168]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[167]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[166]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[165]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[164]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[163]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[162]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[161]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[160]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[159]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[158]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[157]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[156]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[155]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[154]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[153]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[152]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[151]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[150]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[149]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[148]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[147]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[146]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[145]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[144]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[143]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[142]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[141]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[140]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[139]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[138]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[137]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[136]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[135]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[134]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[133]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[132]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[131]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[130]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[129]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[128]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[127]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[126]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[125]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[124]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[123]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[122]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[121]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[120]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[119]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[118]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[117]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[116]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[115]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[114]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[113]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[112]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[111]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[110]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[109]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[108]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[107]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[106]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[105]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[104]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[103]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[102]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[101]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[100]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[99]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[98]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[97]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[96]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[95]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[94]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[93]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[92]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[91]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[90]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[89]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[88]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[87]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[86]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[85]) is unused and will be removed from module SSB.
+WARNING: [Synth 8-3332] Sequential element (u44/bkdata_reg[84]) is unused and will be removed from module SSB.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'generate_100MHz/clk_out1' to pin 'generate_100MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'generate_16xDeltaF4/clk_in1' to pin 'generate_100MHz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'generate_16xDeltaF4/clk_out1' to pin 'generate_16xDeltaF4/bbstub_clk_out1/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'generate_16xDeltaF4/clk_in1' to 'u12/enable_reg/C'
+INFO: [Synth 8-5819] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_100MHz    |         1|
+|2     |clknew4       |         1|
+|3     |rom224        |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |clk_100MHz_bbox_0 |     1|
+|2     |clknew4_bbox_1    |     1|
+|3     |rom224_bbox_2     |     1|
+|4     |LUT2              |     1|
+|5     |FDCE              |     2|
+|6     |IBUF              |     2|
+|7     |OBUF              |     5|
++------+------------------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |    13|
+|2     |  u12    |btn_control |     3|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 608 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:32 . Memory (MB): peak = 832.926 ; gain = 170.719
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 832.926 ; gain = 512.938
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+276 Infos, 185 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 832.926 ; gain = 524.410
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/SSB.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file SSB_utilization_synth.rpt -pb SSB_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 832.926 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 25 21:34:37 2018...
