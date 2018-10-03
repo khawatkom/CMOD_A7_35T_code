@@ -28,7 +28,7 @@ begin
 			LED_flag_of_TiggerSequence <= '0';
 			ctrl                       <= '0';
 			inv_ctrl                   <= '1';
-		elsif (rising_edge(mclk)and sig_flag ='1' and syn_start_flag ='0') then
+		elsif (rising_edge(mclk) and sig_flag ='1' and syn_start_flag ='0') then
 			LED_flag_of_TiggerSequence <= '1';
 			syn_start_flag             <= '1';
 			ctrl                       <= '1';

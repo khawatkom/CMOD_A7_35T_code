@@ -1,0 +1,1131 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Oct  2 12:27:55 2018
+# Process ID: 16724
+# Current directory: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5552 E:\Vivado2017\VivadoProjects\CMOD_A7_35T_code\CMOD_A7_SECOND_EDITION\CMOD_A7_SECOND_EDITION.xpr
+# Log file: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/vivado.log
+# Journal file: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado2017/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 856.414 ; gain = 129.500
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd
+WARNING: [filemgmt 56-12] File 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+file mkdir E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd
+update_compile_order -fileset sources_1
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd
+update_compile_order -fileset sources_1
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd
+update_compile_order -fileset sources_1
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd
+update_compile_order -fileset sources_1
+close [ open E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd w ]
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+ERROR: [VRFC 10-53] clk_0_125mhz is illegal in an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:347]
+ERROR: [VRFC 10-1472] type error near clk_0_125mhz ; expected type std_logic [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:347]
+ERROR: [VRFC 10-91] ctl4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:349]
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:359]
+ERROR: [VRFC 10-91] syn_start_flag4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:358]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <shift_output> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:359]
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <dynamic_choose> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-2666] formal port freq_4 has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:364]
+ERROR: [VRFC 10-91] rom_output_clk_8us4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-283] actual of formal out port dataout cannot be an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1082.516 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+ERROR: [VRFC 10-91] ctl4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:349]
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:359]
+ERROR: [VRFC 10-91] syn_start_flag4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:358]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <shift_output> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:359]
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <dynamic_choose> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-2666] formal port freq_4 has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:364]
+ERROR: [VRFC 10-91] rom_output_clk_8us4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-283] actual of formal out port dataout cannot be an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:359]
+ERROR: [VRFC 10-91] syn_start_flag4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:358]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <shift_output> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:359]
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <dynamic_choose> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-2666] formal port freq_4 has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:364]
+ERROR: [VRFC 10-91] rom_output_clk_8us4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-283] actual of formal out port dataout cannot be an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+ERROR: [VRFC 10-91] syn_start_flag4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:358]
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <dynamic_choose> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-2666] formal port freq_4 has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:364]
+ERROR: [VRFC 10-91] rom_output_clk_8us4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-283] actual of formal out port dataout cannot be an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+ERROR: [VRFC 10-825] illegal identifier : freq_ [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-719] formal port/generic <freq_> is not declared in <dynamic_choose> [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:365]
+ERROR: [VRFC 10-2666] formal port freq_4 has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:364]
+ERROR: [VRFC 10-91] rom_output_clk_8us4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-283] actual of formal out port dataout cannot be an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+ERROR: [VRFC 10-91] rom_output_clk_8us4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-283] actual of formal out port dataout cannot be an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+ERROR: [VRFC 10-91] ctl4 is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-283] actual of formal out port dataout cannot be an expression [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSB
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bk_detector
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity btn_control
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_0_125MHz
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_1MHz
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_4MHz
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity con_217
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity controller
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dynamic_choose
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity half_syn_clk_8us
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity manubuffer
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity output
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rom_choose
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shift_output
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity synchronize
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_SSB
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2017/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 8566ec221f744cec8f4011997255ada7 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_SSB_behav xil_defaultlib.tb_SSB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <btnC> does not exist in entity <SSB>.  Please compare the definition of block <SSB> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:22]
+ERROR: [VRFC 10-718] formal port <jb4> does not exist in entity <SSB>.  Please compare the definition of block <SSB> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:27]
+ERROR: [VRFC 10-718] formal port <jc4> does not exist in entity <SSB>.  Please compare the definition of block <SSB> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:31]
+ERROR: [VRFC 10-718] formal port <ld0> does not exist in entity <SSB>.  Please compare the definition of block <SSB> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:32]
+ERROR: [VRFC 10-718] formal port <ld4> does not exist in entity <SSB>.  Please compare the definition of block <SSB> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:36]
+ERROR: [VRFC 10-718] formal port <output4_1> does not exist in entity <SSB>.  Please compare the definition of block <SSB> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:43]
+ERROR: [VRFC 10-718] formal port <output4_2> does not exist in entity <SSB>.  Please compare the definition of block <SSB> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:44]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1095.883 ; gain = 3.438
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_SSB
+ERROR: [VRFC 10-1412] syntax error near ctrl [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:67]
+ERROR: [VRFC 10-1412] syntax error near ) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:69]
+ERROR: [VRFC 10-2666] formal port primary_clk has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:57]
+ERROR: [VRFC 10-91] btnc is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:104]
+ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:15]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_SSB
+ERROR: [VRFC 10-1412] syntax error near ctrl [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:67]
+ERROR: [VRFC 10-1412] syntax error near ) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:69]
+ERROR: [VRFC 10-2666] formal port primary_clk has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:57]
+ERROR: [VRFC 10-91] btnc is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:104]
+ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:15]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_SSB
+ERROR: [VRFC 10-1412] syntax error near ctrl [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:67]
+ERROR: [VRFC 10-1412] syntax error near ) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:69]
+ERROR: [VRFC 10-2666] formal port primary_clk has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:57]
+ERROR: [VRFC 10-91] btnc is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:104]
+ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:15]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_SSB
+ERROR: [VRFC 10-1412] syntax error near ) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:69]
+ERROR: [VRFC 10-2666] formal port primary_clk has no actual or default value [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:57]
+ERROR: [VRFC 10-91] btnc is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:104]
+ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:15]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_SSB
+ERROR: [VRFC 10-91] btnc is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:59]
+ERROR: [VRFC 10-91] btnc is not declared [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:104]
+ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd:15]
+INFO: [VRFC 10-240] VHDL file E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_SSB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2017/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 8566ec221f744cec8f4011997255ada7 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_SSB_behav xil_defaultlib.tb_SSB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <Input_from_Tag> does not exist in entity <bk_detector>.  Please compare the definition of block <bk_detector> to its component declaration and its instantion to detect the mismatch. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:190]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_SSB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/rom224.mif'
+INFO: [SIM-utils-43] Exported 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim/datain3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_SSB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/rom224/sim/rom224.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom224
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clknew4/clknew4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clknew4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.ip_user_files/ip/clk_100MHz/clk_100MHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_100MHz
+"xvhdl --incr --relax -prj tb_SSB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bk_detector
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2017/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 8566ec221f744cec8f4011997255ada7 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_SSB_behav xil_defaultlib.tb_SSB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.clk_1MHz [clk_1mhz_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_4MHz [clk_4mhz_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_0_125MHz [clk_0_125mhz_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=62.5,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_100MHz_clk_wiz
+Compiling module xil_defaultlib.clk_100MHz
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=45.5,...
+Compiling module xil_defaultlib.clknew4_clk_wiz
+Compiling module xil_defaultlib.clknew4
+Compiling architecture behavioral of entity xil_defaultlib.half_syn_clk_8us [half_syn_clk_8us_default]
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.rom224
+Compiling architecture behavioral of entity xil_defaultlib.rom_choose [rom_choose_default]
+Compiling architecture behavioral of entity xil_defaultlib.btn_control [btn_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.bk_detector [bk_detector_default]
+Compiling architecture behavioral of entity xil_defaultlib.synchronize [synchronize_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_output [shift_output_default]
+Compiling architecture behavioral of entity xil_defaultlib.dynamic_choose [dynamic_choose_default]
+Compiling architecture behavioral of entity xil_defaultlib.con_217 [con_217_default]
+Compiling architecture behavioral of entity xil_defaultlib.output [output_default]
+Compiling architecture behavorial of entity xil_defaultlib.manubuffer [manubuffer_default]
+Compiling architecture behavioral of entity xil_defaultlib.SSB [ssb_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_ssb
+Built simulation snapshot tb_SSB_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1107.941 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_SSB_behav -key {Behavioral:sim_1:Functional:tb_SSB} -tclbatch {tb_SSB.tcl} -view {E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/tb_SSB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+open_wave_config E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/tb_SSB_behav.wcfg
+WARNING: Simulation object /tb_SSB/uut/u44/jb1 was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u12/btnC was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u12/ld0 was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/generate_16xDeltaF4/clk_in1 was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u48/bitout was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u41/count was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u43/bk_clk was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u43/finish_flag was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u43/ctl was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u48/bitin was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u48/ctl was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u48/clk was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/generate_half4/bitsyn was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/generate_half4/rst was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/generate_half4/ctl was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/generate_half4/half_bit was not found in the design.
+WARNING: Simulation object /tb_SSB/output3_2 was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u45/bitsyn was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u45/syn_flag was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u45/jb1 was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u45/ld2 was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u45/syn_flag was not found in the design.
+WARNING: Simulation object /tb_SSB/uut/u45/bitsyn was not found in the design.
+source tb_SSB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_SSB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1115.313 ; gain = 7.371
+run all
+run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 1116.727 ; gain = 1.414
+run all
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:22 . Memory (MB): peak = 1117.844 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+run: Time (s): cpu = 00:01:02 ; elapsed = 00:04:35 . Memory (MB): peak = 1120.648 ; gain = 2.805
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: SSB
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1228.586 ; gain = 104.926
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SSB' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+INFO: [Synth 8-3491] module 'clk_1MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd:6' bound to instance 'generate_1MHz' of component 'clk_1MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:326]
+INFO: [Synth 8-638] synthesizing module 'clk_1MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'clk_1MHz' (1#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd:12]
+INFO: [Synth 8-3491] module 'clk_4MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd:6' bound to instance 'generate_4MHz' of component 'clk_4MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:327]
+INFO: [Synth 8-638] synthesizing module 'clk_4MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'clk_4MHz' (2#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd:13]
+INFO: [Synth 8-3491] module 'clk_0_125MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd:6' bound to instance 'generate_0_125MHz' of component 'clk_0_125MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:328]
+INFO: [Synth 8-638] synthesizing module 'clk_0_125MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'clk_0_125MHz' (3#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd:13]
+INFO: [Synth 8-3491] module 'clk_100MHz' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/realtime/clk_100MHz_stub.vhdl:5' bound to instance 'generate_100MHz' of component 'clk_100MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:330]
+INFO: [Synth 8-638] synthesizing module 'clk_100MHz' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/realtime/clk_100MHz_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'clknew4' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/realtime/clknew4_stub.vhdl:5' bound to instance 'generate_16xDeltaF' of component 'clknew4' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:331]
+INFO: [Synth 8-638] synthesizing module 'clknew4' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/realtime/clknew4_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'half_syn_clk_8us' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd:6' bound to instance 'generate_half_8us' of component 'half_syn_clk_8us' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:333]
+INFO: [Synth 8-638] synthesizing module 'half_syn_clk_8us' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'half_syn_clk_8us' (4#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd:15]
+INFO: [Synth 8-3491] module 'rom224' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/realtime/rom224_stub.vhdl:5' bound to instance 'u40' of component 'rom224' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:338]
+INFO: [Synth 8-638] synthesizing module 'rom224' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/realtime/rom224_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'rom_choose' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:8' bound to instance 'u41' of component 'rom_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:339]
+INFO: [Synth 8-638] synthesizing module 'rom_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'rom_choose' (5#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd:18]
+INFO: [Synth 8-3491] module 'btn_control' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:6' bound to instance 'u12' of component 'btn_control' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:344]
+INFO: [Synth 8-638] synthesizing module 'btn_control' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'btn_control' (6#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd:17]
+INFO: [Synth 8-3491] module 'controller' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd:6' bound to instance 'u13' of component 'controller' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:347]
+INFO: [Synth 8-638] synthesizing module 'controller' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'controller' (7#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd:16]
+INFO: [Synth 8-3491] module 'bk_detector' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:7' bound to instance 'u44' of component 'bk_detector' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:349]
+INFO: [Synth 8-638] synthesizing module 'bk_detector' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:18]
+WARNING: [Synth 8-614] signal 'sig_flag1' is read in the process but is not in the sensitivity list [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:27]
+WARNING: [Synth 8-6014] Unused sequential element countnum1_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:41]
+WARNING: [Synth 8-6014] Unused sequential element countnum2_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:42]
+WARNING: [Synth 8-6014] Unused sequential element countnum3_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element countnum4_reg was removed.  [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'bk_detector' (8#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd:18]
+INFO: [Synth 8-3491] module 'synchronize' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:6' bound to instance 'u45' of component 'synchronize' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:351]
+INFO: [Synth 8-638] synthesizing module 'synchronize' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'synchronize' (9#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd:21]
+INFO: [Synth 8-3491] module 'shift_output' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd:7' bound to instance 'u46' of component 'shift_output' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:358]
+INFO: [Synth 8-638] synthesizing module 'shift_output' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'shift_output' (10#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd:32]
+INFO: [Synth 8-3491] module 'dynamic_choose' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:6' bound to instance 'u47' of component 'dynamic_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:364]
+INFO: [Synth 8-638] synthesizing module 'dynamic_choose' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'dynamic_choose' (11#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd:32]
+INFO: [Synth 8-3491] module 'con_217' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd:6' bound to instance 'u470' of component 'con_217' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:374]
+INFO: [Synth 8-638] synthesizing module 'con_217' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'con_217' (12#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd:15]
+INFO: [Synth 8-3491] module 'output' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd:6' bound to instance 'u471' of component 'output' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:375]
+INFO: [Synth 8-638] synthesizing module '\output ' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd:16]
+INFO: [Synth 8-256] done synthesizing module '\output ' (13#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd:16]
+INFO: [Synth 8-3491] module 'manubuffer' declared at 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd:9' bound to instance 'u480' of component 'manubuffer' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:376]
+INFO: [Synth 8-638] synthesizing module 'manubuffer' [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'manubuffer' (14#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'SSB' (15#1) [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd:32]
+WARNING: [Synth 8-3331] design controller has unconnected port control_clk
+WARNING: [Synth 8-3331] design controller has unconnected port syn_start_flag
+WARNING: [Synth 8-3331] design SSB has unconnected port ctrl
+WARNING: [Synth 8-3331] design SSB has unconnected port inv_ctrl
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1297.926 ; gain = 174.266
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1297.926 ; gain = 174.266
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/clk_100MHz/clk_100MHz.dcp' for cell 'generate_100MHz'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/clknew4/clknew4.dcp' for cell 'generate_16xDeltaF'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/rom224/rom224.dcp' for cell 'u40'
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. generate_16xDeltaF/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'generate_16xDeltaF/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/dcp4/clknew4.edf:276]
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_board.xdc] for cell 'generate_100MHz/inst'
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_board.xdc] for cell 'generate_100MHz/inst'
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc] for cell 'generate_100MHz/inst'
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc] for cell 'generate_100MHz/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SSB_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SSB_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_board.xdc] for cell 'generate_16xDeltaF/inst'
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_board.xdc] for cell 'generate_16xDeltaF/inst'
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc] for cell 'generate_16xDeltaF/inst'
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc] for cell 'generate_16xDeltaF/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SSB_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SSB_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ld4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:2]
+WARNING: [Vivado 12-584] No ports matched 'ld4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:5]
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'jb4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'jc4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:11]
+WARNING: [Vivado 12-584] No ports matched 'ld0'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:12]
+WARNING: [Vivado 12-584] No ports matched 'output4_1'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'output4_2'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'jb4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'jc4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'ld0'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'output4_1'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'output4_2'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:19]
+Finished Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/SSB_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SSB_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SSB_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 1536.824 ; gain = 413.164
+64 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 1536.824 ; gain = 416.176
+place_ports btn_enable_tag_Rx A18
+place_ports ctrl H19
+place_ports inv_ctrl G19
+place_ports Enable_to_Tag N18
+place_ports Input_from_Tag J19
+place_ports LED_flag_of_TiggerSequence G17
+set_property package_pin "" [get_ports [list  Output_cos]]
+set_property package_pin "" [get_ports [list  Output_sin]]
+set_property package_pin "" [get_ports [list  Output_cos]]
+place_ports LED_flag_of_TiggerSequence E19
+place_ports Output_cos G17
+place_ports Output_sin H17
+place_ports LED_flag_of_FPGA_start A17
+place_ports LED_flag_of_TiggerSequence C16
+set_property IOSTANDARD LVCMOS33 [get_ports [list btn_enable_tag_Rx]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list btn_enable_tag_Rx]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list ctrl]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Enable_to_Tag]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Input_from_Tag]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list inv_ctrl]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list LED_flag_of_FPGA_start]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list LED_flag_of_TiggerSequence]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Output_cos]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Output_sin]]
+save_constraints
+close_design
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1
+
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+[Tue Oct  2 17:49:07 2018] Launched synth_1...
+Run output will be captured here: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/runme.log
+[Tue Oct  2 17:49:08 2018] Launched impl_2...
+Run output will be captured here: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210328A58A76A
+set_property PROGRAM.FILE {E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2/SSB.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {n25q32-3.3v-spi-x1_x2_x4}] 0]
+delete_hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [get_hw_devices xc7a35t_0 ]]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2/SSB.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/clk_100MHz/clk_100MHz.dcp' for cell 'generate_100MHz'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/clknew4/clknew4.dcp' for cell 'generate_16xDeltaF'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/rom224/rom224.dcp' for cell 'u40'
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. generate_16xDeltaF/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'generate_16xDeltaF/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/.Xil/Vivado-16724-DESKTOP-J9CTS4D/dcp8/clknew4.edf:276]
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_board.xdc] for cell 'generate_100MHz/inst'
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_board.xdc] for cell 'generate_100MHz/inst'
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc] for cell 'generate_100MHz/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc:57]
+get_clocks: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 2544.719 ; gain = 493.762
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.833330 which will be rounded to 0.833 to ensure it is an integer multiple of 1 picosecond [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc:57]
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc] for cell 'generate_100MHz/inst'
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_board.xdc] for cell 'generate_16xDeltaF/inst'
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_board.xdc] for cell 'generate_16xDeltaF/inst'
+Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc] for cell 'generate_16xDeltaF/inst'
+INFO: [Timing 38-2] Deriving generated clocks [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc:57]
+Finished Parsing XDC File [e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc] for cell 'generate_16xDeltaF/inst'
+Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ld4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld0'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output4_1'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output4_2'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc4'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld0'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output4_1'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output4_2'. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 2647.840 ; gain = 708.410
+startgroup
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [get_designs synth_1]
+set_property BITSTREAM.CONFIG.CONFIGRATE 33 [get_designs synth_1]
+set_property config_mode SPIx4 [current_design]
+endgroup
+save_constraints
+reset_run impl_2
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 2747.758 ; gain = 0.000
+[Tue Oct  2 18:05:51 2018] Launched impl_2...
+Run output will be captured here: E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2/runme.log
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [lindex [get_cfgmem_parts {n25q32-3.3v-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.FILES [list "E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2/SSB.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a35t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a35t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 16   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2766.363 ; gain = 0.000
+endgroup
+close_hw
+save_wave_config {E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/tb_SSB_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  2 18:14:11 2018...

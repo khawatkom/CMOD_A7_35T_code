@@ -54,8 +54,8 @@ architecture Behavioral of SSB is
 	signal data        : std_logic_vector (0 downto 0):="0";             --rom数据输出,值得一提的是rom数据输出必须为vector,哪怕只有一位也是vector
 	signal dataout     : std_logic_vector (1 downto 0) := "00";          --卷积码数据输出
 	signal bitstream   : std_logic := '0';                               --二维vector的卷积码输出变为一维bit流
-	signal syn_clk_4us      : std_logic := '0';                               --同步时钟,4us
-	signal rom_output_clk_8us    : std_logic := '0';                               --同步时钟的一半,8us,rom中的数据就是用这个时钟输出
+	signal syn_clk_4us : std_logic := '0';                               --同步时钟,4us
+	signal rom_output_clk_8us    : std_logic := '0';                     --同步时钟的一半,8us,rom中的数据就是用这个时钟输出
 	signal finish_flag : std_logic;                                      --标志一次传输的完成,490+之前的几位码
 	signal countnumber : integer range 0 to 511;                         --同步模块的计数值
 
@@ -81,7 +81,7 @@ architecture Behavioral of SSB is
 
   	signal bitout : std_logic; --FPGA要传输的比特流,来自rom或者传感器收集,n位+490 
 
-
+  	signal flag_ook : std_logic; --决定输出调制方式,1为OOK,0为BPSK
 
 -------------------------------------------------------------------------------------------------------------
 ------------------------------------------COMPONENT定义区-----------------------------------------------------
@@ -217,6 +217,7 @@ architecture Behavioral of SSB is
 	component controller is
 	    port(
 			control_clk    : in  std_logic;
+			rst 		   : in  std_logic;
 			syn_start_flag : in  std_logic;
 			finish_flag    : in  std_logic;
 			ctl            : out std_logic
@@ -316,7 +317,8 @@ architecture Behavioral of SSB is
 			rst    : in std_logic;
 			ctl    : in std_logic;
 			bitin  : in std_logic;
-			bitout : out std_logic
+			bitout : out std_logic;
+			flag_ook : out std_logic
             );
 	 end component;
 	 ---------------------------------------------------------------------------------------- 
@@ -344,7 +346,7 @@ begin
 	u12: btn_control    port map(mclk => clk, rst => rst, enable => enable, btn_enable_tag_Rx => btn_enable_tag_Rx, 
 								Enable_to_Tag => Enable_to_Tag, LED_flag_of_FPGA_start => LED_flag_of_FPGA_start);
 	
-	u13: controller     port map(control_clk => clk_8us, syn_start_flag => syn_start_flag, finish_flag => finish_flag, ctl => ctl);
+	u13: controller     port map(control_clk => clk_8us, rst => rst, syn_start_flag => syn_start_flag, finish_flag => finish_flag, ctl => ctl);
 
 	u44: bk_detector    port map(bk_clk  => bk_clk_4MHz, rst=> rst, ctl => ctl, enable => enable, Input_from_Tag => Input_from_Tag, sig_flag => sig_flag);	
 	
@@ -370,15 +372,15 @@ begin
 	----------------------------------------------------------------------------------------
 
 
-	----------------------------------------------------------------------------------------
+	-------------------------------------------输出模块区---------------------------------------------
     u470: con_217 port map (clk => rom_output_clk_8us, rst => rst, ctl => ctl, datain => data, dataout => dataout);
     u471: output port map (clk => syn_clk_4us, rst => rst, ctl => ctl, dataout => dataout, bitstream => bitstream);    
-    u480: manubuffer port map (clk => syn_clk_4us, rst => rst, ctl => ctl, bitin => bitstream, bitout => bitout);   
+    u480: manubuffer port map (clk => syn_clk_4us, rst => rst, ctl => ctl, bitin => bitstream, bitout => bitout, flag_ook => flag_ook);   
 	----------------------------------------------------------------------------------------
 
 	----------------------------------------------------------------------------------------
 	--------------------------------主程序操作区---------------------------------------------
-	--功能:依据dynamic_choose选择的数字,从十六个频移时钟选出一个，然后写入temp_output_cos&sin中，准备输出
+	--功能:依据dynamic_choose选择的数字,从十六个频移时钟选出一个,然后写入temp_output_cos&sin中,准备输出
 	with choose_result_of_16freq select	   
 	    temp_output_cos_0_degree <=       
 			freq_1  when 0,
@@ -457,19 +459,28 @@ begin
             freq_12 when 15,
             '0'     when others;
 
-	--功能:BPSK或者OOK调制区，是输出给tag前的最后一步，从此输出
-	with bitout select
-	    Output_cos <= 
-	    	temp_output_cos_0_degree    when '0',
-		    temp_output_cos_180_invert  when others;
-    with bitout select
-	    Output_sin <= 
-	    	temp_output_sin_0_degree    when '0',
-		    temp_output_sin_180_invert  when others;
+----------------------------------------------------------------------------------------------
+	--功能:BPSK或者OOK调制区,是输出给tag前的最后一步,从此输出
+	--with bitout select
+	--    Output_cos <= 
+	--    	temp_output_cos_0_degree    when '0',
+	--	    temp_output_cos_180_invert  when others;
+    --with bitout select
+	--    Output_sin <= 
+	--    	temp_output_sin_0_degree    when '0',
+	--	    temp_output_sin_180_invert  when others;
+ 	Output_cos <= '0' when (bitout = '0' and flag_ook = '1') else
+ 				temp_output_cos_0_degree when (bitout = '0' and flag_ook = '0') else
+ 				temp_output_cos_180_invert;
+ 	Output_sin <= '0' when (bitout = '0' and flag_ook = '1') else 
+ 				temp_output_sin_0_degree when (bitout = '0' and flag_ook = '0') else
+ 				temp_output_sin_180_invert;
 
 end Behavioral;
+-------------------------------------------------------------------------------------------------
 
----------------------------废弃代码，需要再用---------------------------------
+
+---------------------------废弃代码,需要再用---------------------------------
 -------2 MHz used for Barker Code dectection ----
 --library IEEE;
 --use IEEE.STD_LOGIC_1164.ALL;

@@ -24,7 +24,7 @@ begin
 		    temp_addra := "00000000000";
 			finish_flag <= '0';
 	    elsif(clk'event and clk = '1') then
-			if(temp_addra = "00011111001") then --11111001，249   11110100，244
+			if(temp_addra = "00011111010") then --11111010，250, 11111001，249   11110100，244
 				temp_addra := "00000000000";
 				finish_flag <= '1';					
 			else

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1538474750">
-  <File Type="OPT-HWDEF" Name="SSB.hwdef"/>
-  <File Type="PA-DCP" Name="SSB.dcp"/>
-  <File Type="OPT-DCP" Name="SSB_opt.dcp"/>
+<GenRun Id="impl_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1538540079">
+  <File Type="PWROPT-DCP" Name="SSB_pwropt.dcp"/>
   <File Type="ROUTE-PWR" Name="SSB_power_routed.rpt"/>
   <File Type="PA-TCL" Name="SSB.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="SSB_power_summary_routed.pb"/>
@@ -10,9 +8,10 @@
   <File Type="BG-DRC" Name="SSB.drc"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="SSB_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="SSB_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="SSB.hwdef"/>
+  <File Type="OPT-DCP" Name="SSB_opt.dcp"/>
   <File Type="OPT-DRC" Name="SSB_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="SSB_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DCP" Name="SSB_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="SSB_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="SSB_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="SSB_placed.dcp"/>

@@ -21,6 +21,7 @@ begin
 	begin
 	    if(rst = '1' or ctl = '1')       then
 	        cnt := 0;
+	        temp := '0';
 	    elsif (clk'event and clk = '1')  then
 	    	if (cnt = 1)                 then
 	            cnt := 0;
