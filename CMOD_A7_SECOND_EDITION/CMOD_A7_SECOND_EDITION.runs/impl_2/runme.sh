@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2'
+HD_PWD='E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

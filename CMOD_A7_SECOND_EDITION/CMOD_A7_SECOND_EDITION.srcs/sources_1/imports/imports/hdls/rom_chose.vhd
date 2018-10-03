@@ -6,24 +6,24 @@ use ieee.std_logic_unsigned.all;
 use ieee.std_logic_arith.all;
 
 entity rom_choose is
-   port(clk: in std_logic;
-	     rst: in std_logic;
-		  ctl: in std_logic;
-		  addra: out std_logic_vector(10 downto 0);
-		  finish_flag: inout std_logic
-		 );
+   	port(
+		clk         : in    std_logic;
+		rst         : in    std_logic;
+		ctl         : in    std_logic;
+		addra       : out   std_logic_vector(10 downto 0);
+		finish_flag : inout std_logic
+		);
 end rom_choose;
 
 architecture Behavioral of rom_choose is
-   signal count: integer range 0 to 511;
 begin
-   process(clk, rst, ctl)
-	   variable temp_addra: std_logic_vector(10 downto 0):="00000000000";
+    process(clk, rst, ctl)
+	    variable temp_addra: std_logic_vector(10 downto 0):="00000000000";
 	begin
 		if(rst='1' or ctl = '1') then
-		   temp_addra := "00000000000";
+		    temp_addra := "00000000000";
 			finish_flag <= '0';
-	   elsif(clk'event and clk = '1') then
+	    elsif(clk'event and clk = '1') then
 			if(temp_addra = "00011111001") then --11111001，249   11110100，244
 				temp_addra := "00000000000";
 				finish_flag <= '1';					

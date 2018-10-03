@@ -16,42 +16,52 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/wt [current_project]
-set_property parent.project_path E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.xpr [current_project]
+set_property webtalk.parent_dir E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/wt [current_project]
+set_property parent.project_path E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:cmod_a7-35t:part0:1.1 [current_project]
-set_property ip_output_repo e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/ip [current_project]
+set_property ip_output_repo e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/datain3.coe
+add_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/datain3.coe
 read_vhdl -library xil_defaultlib {
-  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd
-  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd
-  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd
-  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd
-  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd
-  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd
-  E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd
+  E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd
 }
-read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xci
-set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_board.xdc]
-set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc]
-set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_ooc.xdc]
+read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xci
+set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_board.xdc]
+set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xdc]
+set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz_ooc.xdc]
 
-read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xci
-set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_board.xdc]
-set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc]
-set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_ooc.xdc]
+read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xci
+set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_board.xdc]
+set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xdc]
+set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4_ooc.xdc]
 
-read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/rom224/rom224.xci
-set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/rom224/rom224_ooc.xdc]
+read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/rom224/rom224.xci
+set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/rom224/rom224_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -61,8 +71,8 @@ set_property used_in_implementation false [get_files -all e:/Vivado2017/VivadoPr
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc
-set_property used_in_implementation false [get_files E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
+read_xdc E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc
+set_property used_in_implementation false [get_files E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc]
 
 
 synth_design -top SSB -part xc7a35tcpg236-1

@@ -60,26 +60,21 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  create_project -in_memory -part xc7a35tcpg236-1
-  set_property board_part digilentinc.com:cmod_a7-35t:part0:1.1 [current_project]
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/wt [current_project]
-  set_property parent.project_path E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.xpr [current_project]
-  set_property ip_output_repo E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/ip [current_project]
+  set_param xicom.use_bs_reader 1
+  reset_param project.defaultXPMLibraries 
+  open_checkpoint E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/impl_2/SSB.dcp
+  set_property webtalk.parent_dir E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/wt [current_project]
+  set_property parent.project_path E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.xpr [current_project]
+  set_property ip_output_repo E:/Vivado2017/VivadoProjects/CMOD_A7_35T_code/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
-  add_files -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.runs/synth_1/SSB.dcp
-  read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clk_100MHz/clk_100MHz.xci
-  read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/clknew4/clknew4.xci
-  read_ip -quiet E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/sources_1/ip/rom224/rom224.xci
-  read_xdc E:/Vivado2017/VivadoProjects/CMOD_A7_SECOND_EDITION/CMOD_A7_SECOND_EDITION.srcs/constrs_1/imports/new/4tags.xdc
-  link_design -top SSB -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {

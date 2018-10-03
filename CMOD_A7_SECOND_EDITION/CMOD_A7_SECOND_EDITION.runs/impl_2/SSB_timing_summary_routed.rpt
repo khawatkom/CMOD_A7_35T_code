@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Tue Sep 25 21:35:57 2018
+| Date         : Tue Oct  2 18:06:59 2018
 | Host         : DESKTOP-J9CTS4D running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file SSB_timing_summary_routed.rpt -rpx SSB_timing_summary_routed.rpx -warn_on_violation
 | Design       : SSB
@@ -220,7 +220,7 @@ PW    :            0  Failing Endpoints,  Worst Slack        4.500ns,  Total Vio
 Max Delay Paths
 --------------------------------------------------------------------------------------
 Slack (MET) :             7.912ns  (required time - arrival time)
-  Source:                 u12/btnC_flag_reg/C
+  Source:                 u12/btn_enable_tag_Rx_flag_reg/C
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            u12/enable_reg_lopt_replica/CE
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
@@ -251,10 +251,10 @@ Slack (MET) :             7.912ns  (required time - arrival time)
                          net (fo=1, routed)           1.666    -2.589    generate_100MHz/inst/clk_out1_clk_100MHz
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.493 r  generate_100MHz/inst/clkout1_buf/O
                          net (fo=3, routed)           1.806    -0.687    u12/clk_out1
-    SLICE_X0Y111         FDCE                                         r  u12/btnC_flag_reg/C
+    SLICE_X0Y111         FDCE                                         r  u12/btn_enable_tag_Rx_flag_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.456    -0.231 f  u12/btnC_flag_reg/Q
-                         net (fo=1, routed)           0.510     0.279    u12/btnC_flag
+    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.456    -0.231 f  u12/btn_enable_tag_Rx_flag_reg/Q
+                         net (fo=1, routed)           0.510     0.279    u12/btn_enable_tag_Rx_flag
     SLICE_X0Y111         LUT2 (Prop_lut2_I1_O)        0.124     0.403 r  u12/enable_i_1/O
                          net (fo=2, routed)           0.529     0.932    u12/enable_i_1_n_0
     SLICE_X1Y111         FDCE                                         r  u12/enable_reg_lopt_replica/CE
@@ -282,7 +282,7 @@ Slack (MET) :             7.912ns  (required time - arrival time)
                          slack                                  7.912    
 
 Slack (MET) :             7.957ns  (required time - arrival time)
-  Source:                 u12/btnC_flag_reg/C
+  Source:                 u12/btn_enable_tag_Rx_flag_reg/C
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            u12/enable_reg/CE
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
@@ -313,10 +313,10 @@ Slack (MET) :             7.957ns  (required time - arrival time)
                          net (fo=1, routed)           1.666    -2.589    generate_100MHz/inst/clk_out1_clk_100MHz
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.493 r  generate_100MHz/inst/clkout1_buf/O
                          net (fo=3, routed)           1.806    -0.687    u12/clk_out1
-    SLICE_X0Y111         FDCE                                         r  u12/btnC_flag_reg/C
+    SLICE_X0Y111         FDCE                                         r  u12/btn_enable_tag_Rx_flag_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.456    -0.231 f  u12/btnC_flag_reg/Q
-                         net (fo=1, routed)           0.510     0.279    u12/btnC_flag
+    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.456    -0.231 f  u12/btn_enable_tag_Rx_flag_reg/Q
+                         net (fo=1, routed)           0.510     0.279    u12/btn_enable_tag_Rx_flag
     SLICE_X0Y111         LUT2 (Prop_lut2_I1_O)        0.124     0.403 r  u12/enable_i_1/O
                          net (fo=2, routed)           0.480     0.883    u12/enable_i_1_n_0
     SLICE_X0Y112         FDCE                                         r  u12/enable_reg/CE
@@ -350,7 +350,7 @@ Slack (MET) :             7.957ns  (required time - arrival time)
 Min Delay Paths
 --------------------------------------------------------------------------------------
 Slack (MET) :             0.555ns  (arrival time - required time)
-  Source:                 u12/btnC_flag_reg/C
+  Source:                 u12/btn_enable_tag_Rx_flag_reg/C
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            u12/enable_reg/CE
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
@@ -377,10 +377,10 @@ Slack (MET) :             0.555ns  (arrival time - required time)
                          net (fo=1, routed)           0.489    -1.189    generate_100MHz/inst/clk_out1_clk_100MHz
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026    -1.163 r  generate_100MHz/inst/clkout1_buf/O
                          net (fo=3, routed)           0.673    -0.490    u12/clk_out1
-    SLICE_X0Y111         FDCE                                         r  u12/btnC_flag_reg/C
+    SLICE_X0Y111         FDCE                                         r  u12/btn_enable_tag_Rx_flag_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.141    -0.349 f  u12/btnC_flag_reg/Q
-                         net (fo=1, routed)           0.173    -0.177    u12/btnC_flag
+    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.141    -0.349 f  u12/btn_enable_tag_Rx_flag_reg/Q
+                         net (fo=1, routed)           0.173    -0.177    u12/btn_enable_tag_Rx_flag
     SLICE_X0Y111         LUT2 (Prop_lut2_I1_O)        0.045    -0.132 r  u12/enable_i_1/O
                          net (fo=2, routed)           0.172     0.040    u12/enable_i_1_n_0
     SLICE_X0Y112         FDCE                                         r  u12/enable_reg/CE
@@ -407,7 +407,7 @@ Slack (MET) :             0.555ns  (arrival time - required time)
                          slack                                  0.555    
 
 Slack (MET) :             0.564ns  (arrival time - required time)
-  Source:                 u12/btnC_flag_reg/C
+  Source:                 u12/btn_enable_tag_Rx_flag_reg/C
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            u12/enable_reg_lopt_replica/CE
                             (rising edge-triggered cell FDCE clocked by clk_out1_clk_100MHz  {rise@0.000ns fall@5.000ns period=10.000ns})
@@ -434,10 +434,10 @@ Slack (MET) :             0.564ns  (arrival time - required time)
                          net (fo=1, routed)           0.489    -1.189    generate_100MHz/inst/clk_out1_clk_100MHz
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026    -1.163 r  generate_100MHz/inst/clkout1_buf/O
                          net (fo=3, routed)           0.673    -0.490    u12/clk_out1
-    SLICE_X0Y111         FDCE                                         r  u12/btnC_flag_reg/C
+    SLICE_X0Y111         FDCE                                         r  u12/btn_enable_tag_Rx_flag_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.141    -0.349 f  u12/btnC_flag_reg/Q
-                         net (fo=1, routed)           0.173    -0.177    u12/btnC_flag
+    SLICE_X0Y111         FDCE (Prop_fdce_C_Q)         0.141    -0.349 f  u12/btn_enable_tag_Rx_flag_reg/Q
+                         net (fo=1, routed)           0.173    -0.177    u12/btn_enable_tag_Rx_flag
     SLICE_X0Y111         LUT2 (Prop_lut2_I1_O)        0.045    -0.132 r  u12/enable_i_1/O
                          net (fo=2, routed)           0.179     0.048    u12/enable_i_1_n_0
     SLICE_X1Y111         FDCE                                         r  u12/enable_reg_lopt_replica/CE
@@ -477,19 +477,19 @@ Sources:            { generate_100MHz/inst/mmcm_adv_inst/CLKOUT0 }
 Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
 Min Period        n/a     BUFG/I              n/a            2.155         10.000      7.845      BUFGCTRL_X0Y0    generate_100MHz/inst/clkout1_buf/I
 Min Period        n/a     MMCME2_ADV/CLKOUT0  n/a            1.249         10.000      8.751      MMCME2_ADV_X0Y0  generate_100MHz/inst/mmcm_adv_inst/CLKOUT0
-Min Period        n/a     FDCE/C              n/a            1.000         10.000      9.000      SLICE_X0Y111     u12/btnC_flag_reg/C
+Min Period        n/a     FDCE/C              n/a            1.000         10.000      9.000      SLICE_X0Y111     u12/btn_enable_tag_Rx_flag_reg/C
 Min Period        n/a     FDCE/C              n/a            1.000         10.000      9.000      SLICE_X0Y112     u12/enable_reg/C
 Min Period        n/a     FDCE/C              n/a            1.000         10.000      9.000      SLICE_X1Y111     u12/enable_reg_lopt_replica/C
 Max Period        n/a     MMCME2_ADV/CLKOUT0  n/a            213.360       10.000      203.360    MMCME2_ADV_X0Y0  generate_100MHz/inst/mmcm_adv_inst/CLKOUT0
-Low Pulse Width   Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btnC_flag_reg/C
-Low Pulse Width   Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btnC_flag_reg/C
+Low Pulse Width   Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btn_enable_tag_Rx_flag_reg/C
+Low Pulse Width   Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btn_enable_tag_Rx_flag_reg/C
 Low Pulse Width   Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y112     u12/enable_reg/C
 Low Pulse Width   Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X1Y111     u12/enable_reg_lopt_replica/C
 Low Pulse Width   Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X1Y111     u12/enable_reg_lopt_replica/C
 Low Pulse Width   Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y112     u12/enable_reg/C
 High Pulse Width  Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y112     u12/enable_reg/C
-High Pulse Width  Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btnC_flag_reg/C
-High Pulse Width  Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btnC_flag_reg/C
+High Pulse Width  Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btn_enable_tag_Rx_flag_reg/C
+High Pulse Width  Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y111     u12/btn_enable_tag_Rx_flag_reg/C
 High Pulse Width  Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X0Y112     u12/enable_reg/C
 High Pulse Width  Slow    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X1Y111     u12/enable_reg_lopt_replica/C
 High Pulse Width  Fast    FDCE/C              n/a            0.500         5.000       4.500      SLICE_X1Y111     u12/enable_reg_lopt_replica/C

@@ -15,18 +15,18 @@ Compiling package ieee.std_logic_unsigned
 Compiling package ieee.std_logic_signed
 Compiling package vl.vl_types
 Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.clk_1MHz [clk_1mhz_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_4MHz [clk_4mhz_default]
+Compiling architecture behavioral of entity xil_defaultlib.clk_0_125MHz [clk_0_125mhz_default]
 Compiling module unisims_ver.IBUF
 Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=62.5,...
 Compiling module unisims_ver.BUFG
 Compiling module xil_defaultlib.clk_100MHz_clk_wiz
 Compiling module xil_defaultlib.clk_100MHz
-Compiling architecture behavioral of entity xil_defaultlib.clk_1MHz [clk_1mhz_default]
-Compiling architecture behavioral of entity xil_defaultlib.clk_4MHz [clk_4mhz_default]
-Compiling architecture behavioral of entity xil_defaultlib.clk_0_125MHz [clk_0_125mhz_default]
 Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=45.5,...
 Compiling module xil_defaultlib.clknew4_clk_wiz
 Compiling module xil_defaultlib.clknew4
-Compiling architecture behavioral of entity xil_defaultlib.half_bitsyn [half_bitsyn_default]
+Compiling architecture behavioral of entity xil_defaultlib.half_syn_clk_8us [half_syn_clk_8us_default]
 Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
 Compiling module xil_defaultlib.rom224
 Compiling architecture behavioral of entity xil_defaultlib.rom_choose [rom_choose_default]
@@ -35,10 +35,10 @@ Compiling architecture behavioral of entity xil_defaultlib.controller [controlle
 Compiling architecture behavioral of entity xil_defaultlib.bk_detector [bk_detector_default]
 Compiling architecture behavioral of entity xil_defaultlib.synchronize [synchronize_default]
 Compiling architecture behavioral of entity xil_defaultlib.shift_output [shift_output_default]
-Compiling architecture behavorial of entity xil_defaultlib.manubuffer [manubuffer_default]
 Compiling architecture behavioral of entity xil_defaultlib.dynamic_choose [dynamic_choose_default]
 Compiling architecture behavioral of entity xil_defaultlib.con_217 [con_217_default]
 Compiling architecture behavioral of entity xil_defaultlib.output [output_default]
+Compiling architecture behavorial of entity xil_defaultlib.manubuffer [manubuffer_default]
 Compiling architecture behavioral of entity xil_defaultlib.SSB [ssb_default]
 Compiling architecture behavior of entity xil_defaultlib.tb_ssb
 Built simulation snapshot tb_SSB_behav

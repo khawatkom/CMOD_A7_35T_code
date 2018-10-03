@@ -3,9 +3,17 @@ vhdl xil_defaultlib  \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/SSB.vhd" \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/bk_detector.vhd" \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/btn_control.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_0_125MHz.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_1MHz.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/clk_4MHz.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/con_217.vhd" \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/controller.vhd" \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/dynamic_choose.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/half_syn_clk_4us.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/manubuffer.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/output.vhd" \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/rom_chose.vhd" \
+"../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/new/shift_out.vhd" \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/imports/synchronize.vhd" \
 "../../../../CMOD_A7_SECOND_EDITION.srcs/sources_1/imports/imports/hdls/tb_SSB.vhd" \
 
